@@ -33,7 +33,7 @@ jobs:
     - name: Configure AWS credentials using OIDC
       uses: aws-actions/configure-aws-credentials@v2
       with:
-        role-to-assume: arn:aws:iam::116981791124:role/idp-role
+        role-to-assume: arn:aws:iam::539935451710:role/idp-role@123
         aws-region: us-west-1
 
     - name: Initialize Terraform
